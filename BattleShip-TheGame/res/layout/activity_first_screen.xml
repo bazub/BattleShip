@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstScreen" 
+    android:background="@drawable/battleshipbg">
+
+    <Button
+        android:id="@+id/newgame"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="New Game" 
+        android:background="@color/transparent" 
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/loadgame"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/newgame"
+        android:layout_below="@+id/newgame"
+        android:layout_marginTop="5dp"
+        android:text="Load Game" 
+        android:background="@color/transparent"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/quitgame"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/loadgame"
+        android:layout_below="@+id/loadgame"
+        android:layout_marginTop="5dp"
+        android:text="Exit" 
+        android:background="@color/transparent"
+        android:textColor="@color/white"/>
+
+    
+</RelativeLayout>
